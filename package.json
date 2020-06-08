@@ -1,34 +1,33 @@
 {
   "name": "michaelmayautosparesreact",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "used car parts website",
+  "main": "App.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "App.js",
+    "server": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "keywords": [
+    "daihatsu",
+    "sirion",
+    "terios",
+    "charade",
+    "suzuki",
+    "ignis",
+    "ford",
+    "mondeo",
+    "focus"
+  ],
+  "author": "Michael Lovell",
+  "license": "ISC"
 }
