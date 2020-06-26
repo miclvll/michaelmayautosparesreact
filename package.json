@@ -14,6 +14,7 @@
     "live-server": "^1.2.1"
   },
   "scripts": {
+    "build": "npm build",
     "start": "App.js",
     "server": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
